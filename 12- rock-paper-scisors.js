@@ -86,10 +86,10 @@ document.body.addEventListener('keydown', (event) => {
 
       document.querySelector(".js-reset") .innerHTML 
       = `You 
-  <img src="./${computerMove}-emoji.png" class="img">
   <img src="./${playrMove}-emoji.png" class="img">
+  <img src="./${computerMove}-emoji.png" class="img">
   computer`;
-}
+};
 
     function playGame() {
       document.querySelector(
@@ -115,4 +115,5 @@ document.body.addEventListener('keydown', (event) => {
         computerMove = "scissors";
       }
       return computerMove;
+
     }
